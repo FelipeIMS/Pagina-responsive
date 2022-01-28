@@ -3,9 +3,8 @@
     height: auto;
     display: flex !important;
     flex-wrap: wrap;
-    margin-left: 200px;
-
-
+    justify-content: center;
+    margin-top: 30px;
   }
 
   .contenedor .hijo1 {
@@ -13,4 +12,9 @@
     height: 200px;
   }
  
- 
+ @media screen and (min-width: 720) and (max-width: 1280px) {
+    .contenedor {
+      justify-content: center;
+      margin-top: 30px;
+  }
+ }
